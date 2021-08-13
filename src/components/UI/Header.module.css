@@ -1,0 +1,10 @@
+div.header{
+    box-shadow: rgba(73, 73, 73, 0.2) 0px 8px 24px;
+    padding: 8px 10px;
+    background-color: #1F1F21;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

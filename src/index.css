@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
+  color: rgb(238, 237, 237);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3B3A3F;
+}
+.buttonStyle{
+  background-color:#1F1F21 ;
+  padding: 30px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.buttonClass{
+  background-color:#1F1F21 ;
+  padding: 0px;
+  border:none;
+  cursor:pointer;
+  outline: none;
+  font-size: 30px;
+}
+.X {
+  transition: all 0.5s;
+  background-color:#303f9f;
+  color:white
+}
+.O {
+  transition: all 0.5s;
+  background-color: #00897B;
+  color: white;
 }
